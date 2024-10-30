@@ -6,7 +6,7 @@ metadata:
   namespace: fleet-default
 instanceType: t3a.medium
 region: us-east-1
-subnetId: vpc-0489b97f06e544c65
-vpcId: vpc-0c7c6085a97724ca9
+subnetId: subnet-064523a877a20ee8f
+vpcId: vpc-0489b97f06e544c65
 zone: b
 sshUser: ubuntu
