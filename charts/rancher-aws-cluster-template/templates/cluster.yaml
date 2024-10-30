@@ -32,7 +32,7 @@ spec:
     - controlPlaneRole: false
       etcdRole: false
       workerRole: true
-      quantity: 1
+      quantity: 3
       name: {{ $clustername }}-worker
       machineConfigRef:
         kind: Amazonec2Config
