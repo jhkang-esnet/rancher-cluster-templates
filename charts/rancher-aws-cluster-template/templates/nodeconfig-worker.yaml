@@ -4,9 +4,9 @@ kind: Amazonec2Config
 metadata:
   name: {{ $clustername }}-worker
   namespace: fleet-default
-instanceType: t3a.large
-region: eu-central-1
-subnetId: subnet-0984ae232db1d4391
+instanceType: t3a.medium
+region: us-east-1
+subnetId: vpc-0489b97f06e544c65
 vpcId: vpc-0c7c6085a97724ca9
-zone: a
+zone: b
 sshUser: ubuntu
